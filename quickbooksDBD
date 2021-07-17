@@ -1,25 +1,54 @@
 #Quick DBD code
 Crime_table
 -
-CNTYFIPS VARCHAR(255)
+ID VARCHAR(255)
+CNTYFIPS VARCHAR(255) PK
+Ori VARCHAR(30)
 State VARCHAR(255)
+Agency VARCHAR(30)
+Agentype VARCHAR(255)
+Source VARCHAR(255)
 Solved VARCHAR(30)
 Year INT
+StateName VARCHAR(255)
 Month VARCHAR(30)
+Incident VARCHAR(255)
+ActionType VARCHAR(255)
 Homicide VARCHAR(255)
 Situation VARCHAR(255)
 VicAge INT
 VicSex VARCHAR(30)
 VicRace VARCHAR(30)
+VicEthnic VARCHAR(30)
 OffAge INT
+OffSex VARCHAR(30)
 OffRace VARCHAR(30)
+OffEthnic VARCHAR(30)
 Weapon VARCHAR(30)
 Relationship VARCHAR(255)
 Circumstance VARCHAR(255)
+Subcircum VARCHAR(255)
+VicCount INT
+OffCount INT
+FileDate INT
+MSA VARCHAR(255)
 
 Location_table
 -
-city VARCHAR(30)
+city VARCHAR(255)
+city_ascii VARCHAR(255) FK >- Crime_table.CNTYFIPS
 state_id VARCHAR(30)
+state_name VARCHAR(255)
+county_fips INT
+county_name VARCHAR(255)
 lat Decimal(8,6)
 lng Decimal(9,6)
+population INT
+density INT
+source VARCHAR(255)
+military VARCHAR(30)
+incorporated VARCHAR(30)
+timezone VARCHAR(255)
+ranking INT
+zips BIGINT
+id INT
