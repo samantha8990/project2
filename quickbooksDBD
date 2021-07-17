@@ -1,0 +1,25 @@
+#Quick DBD code
+Crime_table
+-
+CNTYFIPS VARCHAR(255)
+State VARCHAR(255)
+Solved VARCHAR(30)
+Year INT
+Month VARCHAR(30)
+Homicide VARCHAR(255)
+Situation VARCHAR(255)
+VicAge INT
+VicSex VARCHAR(30)
+VicRace VARCHAR(30)
+OffAge INT
+OffRace VARCHAR(30)
+Weapon VARCHAR(30)
+Relationship VARCHAR(255)
+Circumstance VARCHAR(255)
+
+Location_table
+-
+city VARCHAR(30)
+state_id VARCHAR(30)
+lat Decimal(8,6)
+lng Decimal(9,6)
