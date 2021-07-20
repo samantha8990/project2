@@ -4552,7 +4552,6 @@ Gresham Park,"Gresham Park, GA",GA,Georgia,13089,DeKalb,33.7053,-84.3155,8877,12
 Poteau,"Poteau, OK",OK,Oklahoma,40079,Le Flore,35.043,-94.6357,8863,113,polygon,FALSE,TRUE,America/Chicago,3
 Cabo Rojo,"Cabo Rojo, PR",PR,Puerto Rico,72023,Cabo Rojo,18.0867,-67.1482,8861,1451,polygon,FALSE,FALSE,America/Puerto_Rico,3
 New Prague,"New Prague, MN",MN,Minnesota,27079,Le Sueur,44.5459,-93.5758,8859,834,polygon,FALSE,TRUE,America/Chicago,3
-Woodbury,"Woodbury, NY",NY,New York,36059,Nassau,40.8177,-73.4703,8852,682,polygon,FALSE,FALSE,America/New_York,3
 Kodiak,"Kodiak, AK",AK,Alaska,2150,Kodiak Island,57.7934,-152.406,8851,571,polygon,FALSE,TRUE,America/Anchorage,3
 Aliquippa,"Aliquippa, PA",PA,Pennsylvania,42007,Beaver,40.6155,-80.2547,8844,813,polygon,FALSE,TRUE,America/New_York,3
 Bridgeport,"Bridgeport, WV",WV,West Virginia,54033,Harrison,39.3036,-80.2477,8842,317,polygon,FALSE,TRUE,America/New_York,3
@@ -5300,7 +5299,6 @@ Lake Lorraine,"Lake Lorraine, FL",FL,Florida,12091,Okaloosa,30.4407,-86.5657,721
 Seward,"Seward, NE",NE,Nebraska,31159,Seward,40.9099,-97.0957,7216,625,polygon,FALSE,TRUE,America/Chicago,3
 Midland Park,"Midland Park, NJ",NJ,New Jersey,34003,Bergen,40.9952,-74.1411,7216,1773,polygon,FALSE,TRUE,America/New_York,3
 Moapa Valley,"Moapa Valley, NV",NV,Nevada,32003,Clark,36.6078,-114.4566,7213,63,polygon,FALSE,FALSE,America/Los_Angeles,3
-Middletown,"Middletown, PA",PA,Pennsylvania,42095,Northampton,40.6441,-75.3244,7212,1063,polygon,FALSE,FALSE,America/New_York,3
 Corbin,"Corbin, KY",KY,Kentucky,21235,Whitley,36.9321,-84.1004,7202,352,polygon,FALSE,TRUE,America/New_York,3
 Dunellen,"Dunellen, NJ",NJ,New Jersey,34023,Middlesex,40.5903,-74.4656,7202,2617,polygon,FALSE,TRUE,America/New_York,2
 Jackson,"Jackson, WI",WI,Wisconsin,55131,Washington,43.3237,-88.166,7200,859,polygon,FALSE,TRUE,America/Chicago,3
@@ -8017,7 +8015,6 @@ Bolivar,"Bolivar, OH",OH,Ohio,39157,Tuscarawas,40.6506,-81.4555,3626,546,polygon
 Fairbury,"Fairbury, NE",NE,Nebraska,31095,Jefferson,40.1449,-97.1764,3626,554,polygon,FALSE,TRUE,America/Chicago,3
 Beloit,"Beloit, KS",KS,Kansas,20123,Mitchell,39.4645,-98.1083,3625,357,polygon,FALSE,TRUE,America/Chicago,3
 Waukon,"Waukon, IA",IA,Iowa,19005,Allamakee,43.2684,-91.4782,3625,470,polygon,FALSE,TRUE,America/Chicago,3
-Oakwood,"Oakwood, OH",OH,Ohio,39035,Cuyahoga,41.3668,-81.5036,3624,408,polygon,FALSE,TRUE,America/New_York,3
 Las Animas,"Las Animas, CO",CO,Colorado,8011,Bent,38.0695,-103.2237,3622,513,polygon,FALSE,TRUE,America/Denver,3
 Pajaro,"Pajaro, CA",CA,California,6053,Monterey,36.9016,-121.7417,3620,1507,polygon,FALSE,FALSE,America/Los_Angeles,3
 New London,"New London, MN",MN,Minnesota,27067,Kandiyohi,45.2975,-94.9476,3619,435,polygon,FALSE,TRUE,America/Chicago,3
@@ -8907,7 +8904,6 @@ Byrnes Mill,"Byrnes Mill, MO",MO,Missouri,29099,Jefferson,38.4395,-90.5741,3002,
 Nocona,"Nocona, TX",TX,Texas,48337,Montague,33.7835,-97.7302,3002,411,polygon,FALSE,TRUE,America/Chicago,3
 Indian Hills,"Indian Hills, TX",TX,Texas,48215,Hidalgo,26.2124,-97.9165,3001,604,polygon,FALSE,FALSE,America/Chicago,3
 Staples,"Staples, MN",MN,Minnesota,27153,Todd,46.369,-94.8018,3000,243,polygon,FALSE,TRUE,America/Chicago,3
-Midway,"Midway, FL",FL,Florida,12039,Gadsden,30.4993,-84.4583,3000,118,polygon,FALSE,TRUE,America/New_York,3
 Stanton,"Stanton, TX",TX,Texas,48317,Martin,32.1316,-101.7925,3000,586,polygon,FALSE,TRUE,America/Chicago,3
 Providence,"Providence, KY",KY,Kentucky,21233,Webster,37.3993,-87.7509,2999,192,polygon,FALSE,TRUE,America/Chicago,3
 Milford,"Milford, IA",IA,Iowa,19059,Dickinson,43.3335,-95.1474,2997,544,polygon,FALSE,TRUE,America/Chicago,3
@@ -11915,7 +11911,6 @@ Penn State Erie,"Penn State Erie, PA",PA,Pennsylvania,42049,Erie,42.1185,-79.981
 Argos,"Argos, IN",IN,Indiana,18099,Marshall,41.2379,-86.2523,1626,488,polygon,FALSE,TRUE,America/Indiana/Indianapolis,3
 St. Francisville,"St. Francisville, LA",LA,Louisiana,22125,West Feliciana,30.7852,-91.3787,1625,344,polygon,FALSE,TRUE,America/Chicago,3
 Kingsley,"Kingsley, MI",MI,Michigan,26055,Grand Traverse,44.5845,-85.5346,1625,515,polygon,FALSE,TRUE,America/Detroit,3
-San Antonio,"San Antonio, PR",PR,Puerto Rico,72005,Aguadilla,18.4931,-67.0998,1625,1297,polygon,FALSE,FALSE,America/Puerto_Rico,3
 Marfa,"Marfa, TX",TX,Texas,48377,Presidio,30.3107,-104.0255,1625,385,polygon,FALSE,TRUE,America/Chicago,3
 Springfield,"Springfield, NE",NE,Nebraska,31153,Sarpy,41.0854,-96.1332,1624,845,polygon,FALSE,TRUE,America/Chicago,3
 Hillsboro,"Hillsboro, ND",ND,North Dakota,38097,Traill,47.403,-97.0635,1624,563,polygon,FALSE,TRUE,America/Chicago,3
@@ -12022,7 +12017,6 @@ New Hope,"New Hope, OR",OR,Oregon,41033,Josephine,42.3693,-123.359,1593,160,poly
 Emigration Canyon,"Emigration Canyon, UT",UT,Utah,49035,Salt Lake,40.7886,-111.7414,1592,33,polygon,FALSE,TRUE,America/Denver,3
 Eagle River,"Eagle River, WI",WI,Wisconsin,55125,Vilas,45.9249,-89.2561,1592,189,polygon,FALSE,TRUE,America/Chicago,3
 Mayville,"Mayville, NY",NY,New York,36013,Chautauqua,42.2532,-79.5031,1592,308,polygon,FALSE,TRUE,America/New_York,3
-Midway,"Midway, FL",FL,Florida,12117,Seminole,28.7924,-81.2314,1592,833,polygon,FALSE,FALSE,America/New_York,3
 Del Rio,"Del Rio, CA",CA,California,6099,Stanislaus,37.7432,-121.0091,1592,295,polygon,FALSE,FALSE,America/Los_Angeles,3
 Crooked Lake Park,"Crooked Lake Park, FL",FL,Florida,12105,Polk,27.8295,-81.5897,1592,1065,polygon,FALSE,FALSE,America/New_York,3
 Aberdeen,"Aberdeen, IN",IN,Indiana,18127,Porter,41.4418,-87.1166,1591,488,polygon,FALSE,FALSE,America/Chicago,3
@@ -12632,7 +12626,6 @@ Greenville,"Greenville, VA",VA,Virginia,51015,Augusta,38.0036,-79.1522,1423,150,
 Greenwich,"Greenwich, OH",OH,Ohio,39077,Huron,41.0318,-82.5198,1422,361,polygon,FALSE,TRUE,America/New_York,3
 Stanton,"Stanton, MI",MI,Michigan,26117,Montcalm,43.2928,-85.0788,1422,255,polygon,FALSE,TRUE,America/Detroit,3
 Benld,"Benld, IL",IL,Illinois,17117,Macoupin,39.093,-89.8023,1422,517,polygon,FALSE,TRUE,America/Chicago,3
-Oakland,"Oakland, PA",PA,Pennsylvania,42021,Cambria,40.3055,-78.8819,1422,387,polygon,FALSE,FALSE,America/New_York,3
 Eldridge,"Eldridge, CA",CA,California,6097,Sonoma,38.3339,-122.5065,1422,842,polygon,FALSE,FALSE,America/Los_Angeles,3
 Manning,"Manning, IA",IA,Iowa,19027,Carroll,41.9092,-95.0642,1422,220,polygon,FALSE,TRUE,America/Chicago,3
 New Beaver,"New Beaver, PA",PA,Pennsylvania,42073,Lawrence,40.8773,-80.3702,1421,37,polygon,FALSE,TRUE,America/New_York,3
@@ -12647,7 +12640,6 @@ Morris,"Morris, OK",OK,Oklahoma,40111,Okmulgee,35.6152,-95.8624,1420,497,polygon
 Moody,"Moody, TX",TX,Texas,48309,McLennan,31.3086,-97.3596,1420,570,polygon,FALSE,TRUE,America/Chicago,3
 Rustburg,"Rustburg, VA",VA,Virginia,51031,Campbell,37.2712,-79.0962,1419,43,polygon,FALSE,FALSE,America/New_York,3
 Black Earth,"Black Earth, WI",WI,Wisconsin,55025,Dane,43.1341,-89.747,1419,648,polygon,FALSE,TRUE,America/Chicago,3
-San Antonio,"San Antonio, PR",PR,Puerto Rico,72115,Quebradillas,18.4382,-66.9362,1419,839,polygon,FALSE,FALSE,America/Puerto_Rico,3
 The Pinehills,"The Pinehills, MA",MA,Massachusetts,25023,Plymouth,41.8882,-70.6,1419,497,polygon,FALSE,TRUE,America/New_York,3
 Logan,"Logan, IA",IA,Iowa,19085,Harrison,41.6453,-95.7917,1418,545,polygon,FALSE,TRUE,America/Chicago,3
 Red Lake Falls,"Red Lake Falls, MN",MN,Minnesota,27125,Red Lake,47.8837,-96.2727,1418,260,polygon,FALSE,TRUE,America/Chicago,3
@@ -13690,7 +13682,6 @@ Curtisville,"Curtisville, PA",PA,Pennsylvania,42003,Allegheny,40.6497,-79.8492,1
 Chatom,"Chatom, AL",AL,Alabama,1129,Washington,31.4691,-88.246,1182,42,polygon,FALSE,TRUE,America/Chicago,3
 Cornwells Heights,"Cornwells Heights, PA",PA,Pennsylvania,42017,Bucks,40.0771,-74.9516,1182,959,polygon,FALSE,FALSE,America/New_York,3
 Hayes,"Hayes, LA",LA,Louisiana,22019,Calcasieu,30.1112,-92.9236,1182,164,polygon,FALSE,FALSE,America/Chicago,3
-Georgetown,"Georgetown, PA",PA,Pennsylvania,42071,Lancaster,39.9426,-76.0789,1182,111,polygon,FALSE,FALSE,America/New_York,3
 New Richland,"New Richland, MN",MN,Minnesota,27161,Waseca,43.8938,-93.4939,1182,766,polygon,FALSE,TRUE,America/Chicago,3
 Howey-in-the-Hills,"Howey-in-the-Hills, FL",FL,Florida,12069,Lake,28.7098,-81.7798,1181,144,polygon,FALSE,TRUE,America/New_York,3
 West Fairview,"West Fairview, PA",PA,Pennsylvania,42041,Cumberland,40.2777,-76.9195,1181,1427,polygon,FALSE,FALSE,America/New_York,3
@@ -15812,7 +15803,6 @@ Stoddard,"Stoddard, WI",WI,Wisconsin,55123,Vernon,43.6625,-91.218,830,502,polygo
 Doniphan,"Doniphan, NE",NE,Nebraska,31079,Hall,40.7742,-98.3708,830,630,polygon,FALSE,TRUE,America/Chicago,3
 Magazine,"Magazine, AR",AR,Arkansas,5083,Logan,35.1534,-93.8078,830,176,polygon,FALSE,TRUE,America/Chicago,3
 Lamboglia,"Lamboglia, PR",PR,Puerto Rico,72109,Patillas,17.9846,-65.9851,830,766,polygon,FALSE,FALSE,America/Puerto_Rico,3
-Chula Vista,"Chula Vista, TX",TX,Texas,48507,Zavala,28.6563,-99.8077,829,604,polygon,FALSE,FALSE,America/Chicago,3
 St. Joseph,"St. Joseph, TN",TN,Tennessee,47099,Lawrence,35.033,-87.5008,829,84,polygon,FALSE,TRUE,America/Chicago,3
 New Union,"New Union, AL",AL,Alabama,1055,Etowah,34.1422,-86.2218,829,26,polygon,FALSE,TRUE,America/Chicago,3
 Harwood,"Harwood, ND",ND,North Dakota,38017,Cass,46.9761,-96.8802,829,267,polygon,FALSE,TRUE,America/Chicago,3
@@ -17911,7 +17901,6 @@ Forkland,"Forkland, AL",AL,Alabama,1063,Greene,32.6489,-87.8671,588,64,polygon,F
 Nelson,"Nelson, AZ",AZ,Arizona,4019,Pima,32.4298,-111.2649,587,475,polygon,FALSE,FALSE,America/Phoenix,3
 Willisville,"Willisville, IL",IL,Illinois,17145,Perry,37.9828,-89.5898,587,582,polygon,FALSE,TRUE,America/Chicago,3
 Orleans,"Orleans, IA",IA,Iowa,19059,Dickinson,43.4513,-95.0991,587,203,polygon,FALSE,TRUE,America/Chicago,3
-Oakwood,"Oakwood, OH",OH,Ohio,39125,Paulding,41.0927,-84.3747,587,322,polygon,FALSE,TRUE,America/New_York,3
 Post Oak Bend City,"Post Oak Bend City, TX",TX,Texas,48257,Kaufman,32.6343,-96.3186,587,112,polygon,FALSE,TRUE,America/Chicago,3
 Barnegat Light,"Barnegat Light, NJ",NJ,New Jersey,34029,Ocean,39.753,-74.1095,587,272,polygon,FALSE,TRUE,America/New_York,3
 Kelso,"Kelso, MO",MO,Missouri,29201,Scott,37.1924,-89.5504,587,714,polygon,FALSE,TRUE,America/Chicago,3
@@ -18156,7 +18145,6 @@ Cook,"Cook, MN",MN,Minnesota,27137,St. Louis,47.8414,-92.6888,562,83,polygon,FAL
 Grayhawk,"Grayhawk, MO",MO,Missouri,29186,Ste. Genevieve,37.931,-90.239,562,49,polygon,FALSE,TRUE,America/Chicago,3
 Boys Town,"Boys Town, NE",NE,Nebraska,31055,Douglas,41.256,-96.1336,562,165,polygon,FALSE,TRUE,America/Chicago,3
 Bailey,"Bailey, NC",NC,North Carolina,37127,Nash,35.7807,-78.1128,562,309,polygon,FALSE,TRUE,America/New_York,3
-Oakland,"Oakland, PA",PA,Pennsylvania,42115,Susquehanna,41.9506,-75.6095,562,486,polygon,FALSE,TRUE,America/New_York,3
 Dexter,"Dexter, GA",GA,Georgia,13175,Laurens,32.4331,-83.0595,562,282,polygon,FALSE,TRUE,America/New_York,3
 Big Sandy,"Big Sandy, MT",MT,Montana,30015,Chouteau,48.1785,-110.1134,562,455,polygon,FALSE,TRUE,America/Denver,3
 Middle Point,"Middle Point, OH",OH,Ohio,39161,Van Wert,40.8559,-84.4463,562,387,polygon,FALSE,TRUE,America/New_York,3
@@ -21872,7 +21860,6 @@ Cameron,"Cameron, OK",OK,Oklahoma,40079,Le Flore,35.1351,-94.5359,293,407,polygo
 Oakdale,"Oakdale, WI",WI,Wisconsin,55081,Monroe,43.962,-90.3789,293,146,polygon,FALSE,TRUE,America/Chicago,3
 Oakdale,"Oakdale, NE",NE,Nebraska,31003,Antelope,42.07,-97.9672,293,217,polygon,FALSE,TRUE,America/Chicago,3
 Lupton,"Lupton, MI",MI,Michigan,26129,Ogemaw,44.4297,-84.0225,293,35,polygon,FALSE,FALSE,America/Detroit,3
-Franklin,"Franklin, PA",PA,Pennsylvania,42021,Cambria,40.3417,-78.8846,293,204,polygon,FALSE,TRUE,America/New_York,3
 Abeytas,"Abeytas, NM",NM,New Mexico,35053,Socorro,34.4652,-106.8137,293,91,polygon,FALSE,FALSE,America/Denver,3
 Witmer,"Witmer, PA",PA,Pennsylvania,42071,Lancaster,40.05,-76.2114,293,91,polygon,FALSE,FALSE,America/New_York,3
 Casar,"Casar, NC",NC,North Carolina,37045,Cleveland,35.5127,-81.6168,293,64,polygon,FALSE,TRUE,America/New_York,3
@@ -22174,7 +22161,6 @@ Oakford,"Oakford, IL",IL,Illinois,17129,Menard,40.1011,-89.9651,276,428,polygon,
 Armstrong,"Armstrong, MO",MO,Missouri,29089,Howard,39.2692,-92.7042,276,129,polygon,FALSE,TRUE,America/Chicago,3
 Buckman,"Buckman, MN",MN,Minnesota,27097,Morrison,45.8973,-94.094,276,105,polygon,FALSE,TRUE,America/Chicago,3
 Malverne Park Oaks,"Malverne Park Oaks, NY",NY,New York,36059,Nassau,40.6816,-73.6643,276,819,polygon,FALSE,FALSE,America/New_York,3
-Chula Vista,"Chula Vista, TX",TX,Texas,48061,Cameron,26.0739,-97.4397,276,582,polygon,FALSE,FALSE,America/Chicago,3
 Stockport,"Stockport, IA",IA,Iowa,19177,Van Buren,40.8573,-91.8334,276,103,polygon,FALSE,TRUE,America/Chicago,3
 Utica,"Utica, MN",MN,Minnesota,27169,Winona,43.9772,-91.9494,276,107,polygon,FALSE,TRUE,America/Chicago,3
 Crosby,"Crosby, MS",MS,Mississippi,28005,Amite,31.2791,-91.063,276,50,polygon,FALSE,TRUE,America/Chicago,3
@@ -22613,7 +22599,6 @@ Wixon Valley,"Wixon Valley, TX",TX,Texas,48041,Brazos,30.7639,-96.3193,253,54,po
 Villard,"Villard, MN",MN,Minnesota,27121,Pope,45.7142,-95.2692,253,125,polygon,FALSE,TRUE,America/Chicago,3
 Goltry,"Goltry, OK",OK,Oklahoma,40003,Alfalfa,36.5319,-98.1514,253,260,polygon,FALSE,TRUE,America/Chicago,3
 Trinity Village,"Trinity Village, CA",CA,California,6105,Trinity,40.8789,-123.5133,253,24,polygon,FALSE,FALSE,America/Los_Angeles,3
-Jefferson,"Jefferson, PA",PA,Pennsylvania,42059,Greene,39.9305,-80.0578,253,519,polygon,FALSE,TRUE,America/New_York,3
 Soper,"Soper, OK",OK,Oklahoma,40023,Choctaw,34.0322,-95.6963,253,361,polygon,FALSE,TRUE,America/Chicago,3
 Fairview,"Fairview, KY",KY,Kentucky,21047,Christian,36.8425,-87.3054,253,80,polygon,FALSE,FALSE,America/Chicago,3
 Brookville,"Brookville, KS",KS,Kansas,20169,Saline,38.7736,-97.8645,253,169,polygon,FALSE,TRUE,America/Chicago,3
@@ -22934,7 +22919,6 @@ Glenwood,"Glenwood, IN",IN,Indiana,18139,Rush,39.6256,-85.3025,236,474,polygon,F
 Lexington,"Lexington, OR",OR,Oregon,41049,Morrow,45.4462,-119.6879,236,208,polygon,FALSE,TRUE,America/Los_Angeles,3
 Michigamme,"Michigamme, MI",MI,Michigan,26103,Marquette,46.5334,-88.0627,236,38,polygon,FALSE,FALSE,America/Detroit,3
 Peoria,"Peoria, CO",CO,Colorado,8005,Arapahoe,39.6649,-104.1456,236,6,polygon,FALSE,FALSE,America/Denver,3
-Newtown,"Newtown, PA",PA,Pennsylvania,42107,Schuylkill,40.6529,-76.3461,236,142,polygon,FALSE,FALSE,America/New_York,3
 Bluebell,"Bluebell, UT",UT,Utah,49013,Duchesne,40.3576,-110.2232,236,9,polygon,FALSE,FALSE,America/Denver,3
 Lake Lillian,"Lake Lillian, MN",MN,Minnesota,27067,Kandiyohi,44.9458,-94.88,235,200,polygon,FALSE,TRUE,America/Chicago,3
 Upper Kalskag,"Upper Kalskag, AK",AK,Alaska,2050,Bethel,61.5416,-160.3337,235,25,polygon,FALSE,FALSE,America/Anchorage,3
@@ -22962,7 +22946,6 @@ Sandy Hook,"Sandy Hook, MD",MD,Maryland,24043,Washington,39.3284,-77.7052,234,41
 Ryegate,"Ryegate, MT",MT,Montana,30037,Golden Valley,46.2985,-109.2538,234,119,polygon,FALSE,TRUE,America/Denver,3
 Henning,"Henning, IL",IL,Illinois,17183,Vermilion,40.3069,-87.701,234,59,polygon,FALSE,TRUE,America/Chicago,3
 Creswell,"Creswell, NC",NC,North Carolina,37187,Washington,35.8743,-76.4032,234,159,polygon,FALSE,TRUE,America/New_York,3
-Liberty,"Liberty, PA",PA,Pennsylvania,42117,Tioga,41.5585,-77.1054,234,189,polygon,FALSE,TRUE,America/New_York,3
 Vallecito,"Vallecito, CA",CA,California,6009,Calaveras,38.074,-120.4564,234,10,polygon,FALSE,FALSE,America/Los_Angeles,3
 Candelero Abajo,"Candelero Abajo, PR",PR,Puerto Rico,72069,Humacao,18.0943,-65.8165,234,1480,polygon,FALSE,TRUE,America/Puerto_Rico,3
 Donnelly,"Donnelly, MN",MN,Minnesota,27149,Stevens,45.6895,-96.0143,234,32,polygon,FALSE,TRUE,America/Chicago,3
@@ -24585,7 +24568,6 @@ Westphalia,"Westphalia, KS",KS,Kansas,20003,Anderson,38.1818,-95.4908,162,315,po
 Adamsburg,"Adamsburg, PA",PA,Pennsylvania,42129,Westmoreland,40.3124,-79.6542,162,223,polygon,FALSE,TRUE,America/New_York,3
 Des Arc,"Des Arc, MO",MO,Missouri,29093,Iron,37.2837,-90.6354,162,294,polygon,FALSE,TRUE,America/Chicago,3
 Weinert,"Weinert, TX",TX,Texas,48207,Haskell,33.3234,-99.6736,162,129,polygon,FALSE,TRUE,America/Chicago,3
-Georgetown,"Georgetown, PA",PA,Pennsylvania,42007,Beaver,40.6417,-80.4994,162,357,polygon,FALSE,TRUE,America/New_York,3
 Baring,"Baring, WA",WA,Washington,53033,King,47.7661,-121.4803,162,59,polygon,FALSE,FALSE,America/Los_Angeles,3
 Buck Creek,"Buck Creek, IN",IN,Indiana,18157,Tippecanoe,40.4874,-86.7622,162,539,polygon,FALSE,FALSE,America/Indiana/Indianapolis,3
 Catlett,"Catlett, VA",VA,Virginia,51061,Fauquier,38.654,-77.637,162,19,polygon,FALSE,FALSE,America/New_York,3
