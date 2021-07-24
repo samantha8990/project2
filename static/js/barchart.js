@@ -1,48 +1,53 @@
-function buildPlot() {
+
     /* data route */
-    const url = "/api/crime";
+    var url = "/api/crime.json";
     d3.json(url).then(function(response) {
-    
+
     console.log(response);
-
-// chart = {
-//     const svg = d3.create("svg")
-//         .attr("viewBox", [0, 0, width, height]);
     
-//     const bar = svg.append("g")
-//         .attr("fill", "steelblue")
-//         .selectAll("rect")
-//         .data(data)
-//         .join("rect")
-//         .style("mix-blend-mode", "multiply")
-//         .attr("x", d => x(d.name))
-//         .attr("y", d => y(d.value))
-//         .attr("height", d => y(0) - y(d.value))
-//         .attr("width", x.bandwidth());
-    
-//     const gx = svg.append("g")
-//         .call(xAxis);
-    
-//     const gy = svg.append("g")
-//         .call(yAxis);
-  
-//     return Object.assign(svg.node(), {
-//       update(order) {
-//         x.domain(data.sort(order).map(d => d.name));
-  
-//         const t = svg.transition()
-//             .duration(750);
+    var count = [];
 
-//         bar.data(data, d => d.name)
-//             .order()
-//             .transition(t)
-//             .delay((d, i) => i * 20)
-//             .attr("x", d => x(d.name));
+    var statearray = response.crimes[0].State
+    
+    var statenames = d3.nest()
+        .key(function(data){
+            return data.State
 
-//         gx.transition(t)
-//             .call(xAxis)
-//             .selectAll(".tick")
-//             .delay((d, i) => i * 20);
-//         }
-//     });
-// }
+        })
+        .entries(response.crimes);
+        console.log(statenames)
+        
+        //create lists for the states and death counts
+        var deathCounts = [];
+        var stateTitles = [];
+
+    for (var i = 0; i < statenames.length; i++) {
+        var stateLabel = statenames[i].key;
+        stateTitles.push(stateLabel);
+        var stateValues = statenames[i].values.length;
+        deathCounts.push(stateValues);
+        // console.log(weaponLabel);
+        // console.log(weaponValues);
+        
+    }
+        console.log(deathCounts);
+        console.log(stateTitles);
+
+
+    
+
+    var data = [{
+        y: deathCounts,
+        x: stateTitles,
+        type: 'bar'
+    }];
+    var layout = {
+        height: 600,
+        width: 600,
+        title:"Unsolved Murders by State in 2019",
+        xaxis_title:"State",
+        yaxis_title:"Total Murders"
+    };
+        Plotly.newPlot("barchart", data, layout);
+    });
+
