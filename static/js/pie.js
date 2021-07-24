@@ -3,20 +3,36 @@
     var url = "/api/crime.json";
     d3.json(url).then(function(response) {
 
-    //console.log(response);
+    console.log(response);
     
     var count = [];
     //var genderCount = {};
     //console.log(response.crimes[0].OffSex);
-    var genderArray = response.crimes[0]
+    var weaponArray = response.crimes[0].Weapon
     
-    var genderCount = d3.nest()
+    var murderWeapon = d3.nest()
         .key(function(data){
-            return data.OffSex
+            return data.Weapon
 
         })
         .entries(response.crimes);
-        console.log(genderCount)
+        console.log(murderWeapon)
+        
+        //create lists for murder weapon and values
+        var weaponCounts = [];
+        var weaponTitles = [];
+
+    for (var i = 0; i < murderWeapon.length; i++) {
+        var weaponLabel = murderWeapon[i].key;
+        weaponTitles.push(weaponLabel);
+        var weaponValues = murderWeapon[i].values.length;
+        weaponCounts.push(weaponValues);
+        // console.log(weaponLabel);
+        // console.log(weaponValues);
+        
+    }
+        console.log(weaponCounts);
+        console.log(weaponTitles);
 
 
     //console.log(genderArray);
@@ -26,13 +42,13 @@
     
 
     var data = [{
-        values: genderCount,
-        labels: ['male', 'female','unknown'],
+        values: weaponCounts,
+        labels: weaponTitles,
         type: 'pie'
     }];
     var layout = {
-        height: 400,
-        width: 500
+        height: 300,
+        width: 400
     };
         Plotly.newPlot("piechart", data, layout);
     });
