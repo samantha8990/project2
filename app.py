@@ -67,7 +67,7 @@ def crime():
 
         all_crimes.append(crime_data)
 
-    crime_data_json={"data":{"crimes": all_crimes}}
+    crime_data_json={"crimes": all_crimes}
 
     # State = [result[0] for result in results]
     # CNTYFIPS=[result[1] for result in results]
