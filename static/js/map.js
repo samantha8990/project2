@@ -20,6 +20,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: "pk.eyJ1IjoiYW5hZ3VheW84OSIsImEiOiJja3F1ODNhcmowMXp0MzFsMzh6dm54eTAxIn0.5ipJ_rkH0yV5m7gbdM3Abw"
 }).addTo(myMap);
 
+console.log("done")
 // var stateName = [];
 // var murderNumber = [];
 
