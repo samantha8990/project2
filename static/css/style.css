@@ -72,7 +72,8 @@ body {
     height: 550px;
     padding: 20px;
     margin: 0;
-    background-image: url("background.jpg");
+    background: black;
+    background-image: url("static\images\background.jpg");
     background-attachment: fixed;
     background-position: bottom center;
     background-size: cover;
