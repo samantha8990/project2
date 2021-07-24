@@ -53,36 +53,25 @@
     <h5>Collected by Arianne, Ashley, Bitty, and Samantha</h5>
 </div>    
 <div class="row">
-  <div class="col-6 col-md-4">
+  <div class="col-6 col-md-2">
     <div class="card">
       <div class="card-body">
         <div id = "piechart"></div>
-        <!-- <img class="card-img-top" src="Resources/Fig1.png", alt="Fig1"> -->
         <p class="card-text">As it is overly apparent by this Pie Chart, men are the WORST.</p>
-        <a href="temperature.html" class="btn btn-primary">Murderers by Gender Pie Chart</a>
+        <a href="temperature.html" class="btn btn-primary">Weapon Pie Chart</a>
       </div>
 
     </div>
   </div>
-  <div class="col-6 col-md-4">
+  <div class="col-6 col-md-2">
     <div class="card">
       <div class="card-body">
-        <img class="card-img-top" src="Resources/Fig2.png", alt="Fig2">
+        <div id = "barchart"></div>
         <p class="card-text">Y axis is death, x axis is state, slider is year-use victory https://formidable.com/open-source/victory/gallery/histogram-with-slider</p>
         <a href="Humidity.html" class="btn btn-primary">Bar Chart</a>
       </div>
     </div>
   </div> 
-  <div class="col-6 col-md-4">
-    <div class="card">
-      <div class="card-body">
-        <img class="card-img-top" src="Resources/Fig3.png", alt="Fig3">
-        <p class="card-text">Some type of line chart here or Area chart</p>
-        <a href="Cloudiness.html" class="btn btn-primary">Line Chart</a>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="row">
   <div class="col-md">
@@ -106,6 +95,7 @@
     
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
     <script src="{{ url_for('static', filename='js/pie.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/barchart.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
