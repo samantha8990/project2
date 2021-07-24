@@ -44,11 +44,14 @@
     var data = [{
         values: weaponCounts,
         labels: weaponTitles,
+        automargin: true,
+        hole:.4,
         type: 'pie'
     }];
     var layout = {
-        height: 300,
-        width: 400
+        height: 600,
+        width: 600,
+        title:"Weapons Used in Unsolved Murders 2019"
     };
         Plotly.newPlot("piechart", data, layout);
     });
