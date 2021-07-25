@@ -33,15 +33,30 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     
 //create function to call locations
     //var markers =  L.markerClusterGroup();
-    var coordinates = [];
-    for (var i = 0; i < response.crimes.length; i++) {  
-        var location=response.crimes[i];
-        if (location) {
-            coordinates.push([location.latitude, location.longitude]);
-            L.marker([location.latitude, location.longitude])
-                .addTo(myMap);
-        }     
-    };        
+// Get count of Coordinates
+var coordinates = d3.nest()
+.key(function(data){
+    return [data.latitude, data.longitude]
+})
+.entries(response.crimes);
+
+// Add Circle Per Coordinate
+for (var i = 0; i < coordinates.length; i++) {
+
+var lat = coordinates[i].key.split(",")[0];
+var lon = coordinates[i].key.split(",")[1];
+var coord_count = coordinates[i].values.length;
+
+L.circle([lat, lon], {
+    fillOpacity: 0.75,
+    color: "red",
+    fillColor: "white",
+    // Adjust radius
+    radius: coord_count * 150
+  })
+  .addTo(myMap);
+}
+
 
 
 //create function to call locations
