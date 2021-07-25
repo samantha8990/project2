@@ -43,7 +43,17 @@ html, body
   max-width: 3px;
   padding: 5em;
 }
-
+/* Granim CSS */
+#canvas-image {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
   
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
 .wrapper {
@@ -94,8 +104,8 @@ html, body
     height: 550px;
     padding: 20px;
     margin: 0;
-    background: url("static/images/background.jpg");
-    background-attachment: fixed;
+    background: url(".../static/images/background.jpg");
+    background-attachment:scroll;
     background-position: bottom center;
     background-size: cover;
 }
