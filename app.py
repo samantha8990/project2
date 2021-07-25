@@ -37,6 +37,30 @@ Combined_table = create_classes(db)
 def home():
     return render_template("index.html")
 
+
+# create route that renders Barchart.html
+@app.route("/api/v1.0/BarChart")
+def home():
+    return render_template("BarChart.html")
+
+
+# create route that renders map.html
+@app.route("/api/v1.0/map")
+def home():
+    return render_template("map.html")
+
+
+# create route that renders Resources.html
+@app.route("/api/v1.0/Resources")
+def home():
+    return render_template("Resources.html")
+
+
+# create route that renders WeaponPie.html
+@app.route("/api/v1.0/WeaponPie")
+def home():
+    return render_template("WeaponPie.html")
+
 # @TODO: Route needed for each dataset
 # Example 1: Two column table
 @app.route("/api/crime.json")
