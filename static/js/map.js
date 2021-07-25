@@ -31,30 +31,41 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
         })
     
+//create function to call locations
+    //var markers =  L.markerClusterGroup();
+    var coordinates = [];
+    for (var i = 0; i < response.crimes.length; i++) {  
+        var location=response.crimes[i];
+        if (location) {
+            coordinates.push([location.latitude, location.longitude]);
+            L.marker([location.latitude, location.longitude])
+                .addTo(myMap);
+        }     
+    };        
 
 
 //create function to call locations
 //var markers =  L.markerClusterGroup();
-    var coordinates = [];
-for (var i = 0; i < response.length; i++) {  
-      var location=response[i].crimes;
-     if (location){
-       coordinates.push([location.latitude[0], location.longitude[0]]);
-     }
+//     var coordinates = [];
+// for (var i = 0; i < response.length; i++) {  
+//       var location=response[i].crimes;
+//      if (location){
+//        coordinates.push([location.latitude[0], location.longitude[0]]);
+//      }
      
-    };
-    console.log(coordinates);
-    var vicCount = [];
-    var stateArray=[];
+//     };
+//     console.log(coordinates);
+//     var vicCount = [];
+//     var stateArray=[];
     
 
     
     
-for (var i = 0; i < statenames.length; i++) {
-      var stateLabel = statenames[i].key;
-      stateTitles.push(stateLabel);
-      var stateValues = statenames[i].values.length;
-      deathCounts.push(stateValues);
+// for (var i = 0; i < statenames.length; i++) {
+//       var stateLabel = statenames[i].key;
+//       stateTitles.push(stateLabel);
+//       var stateValues = statenames[i].values.length;
+//       deathCounts.push(stateValues);
 
     // // Check for location property
     // if (location) {
@@ -68,7 +79,7 @@ for (var i = 0; i < statenames.length; i++) {
 
   // Add our marker cluster layer to the map
 //myMap.addLayer(markers);
-};
+// };
 
 
 console.log("done");
