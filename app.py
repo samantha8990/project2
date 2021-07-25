@@ -39,26 +39,26 @@ def home():
 
 
 # create route that renders Barchart.html
-@app.route("/api/v1.0/BarChart")
-def home():
+@app.route("/BarChart/")
+def bar():
     return render_template("BarChart.html")
 
 
 # create route that renders map.html
-@app.route("/api/v1.0/map")
-def home():
+@app.route("/map/")
+def map():
     return render_template("map.html")
 
 
 # create route that renders Resources.html
-@app.route("/api/v1.0/Resources")
-def home():
+@app.route("/Resources/")
+def resource():
     return render_template("Resources.html")
 
 
 # create route that renders WeaponPie.html
-@app.route("/api/v1.0/WeaponPie")
-def home():
+@app.route("/WeaponPie/")
+def pie():
     return render_template("WeaponPie.html")
 
 # @TODO: Route needed for each dataset
