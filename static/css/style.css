@@ -9,7 +9,7 @@
 }
   
 .active{
-    background-image: url("splatter.svg")
+    background-image: url("/static/images/splatter.svg")
 }
   
 button.btn-primary:active{
@@ -104,8 +104,8 @@ html, body
     height: 550px;
     padding: 20px;
     margin: 0;
-    background: url(".../static/images/background.jpg");
-    background-attachment:scroll;
+    background: url("/static/images/background.jpg");
+    background-attachment:fixed;
     background-position: bottom center;
     background-size: cover;
 }
