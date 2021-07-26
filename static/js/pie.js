@@ -44,6 +44,7 @@
     var data = [{
         values: weaponCounts,
         labels: weaponTitles,
+        textposition: "outside",
         automargin: true,
         hole:.4,
         type: 'pie'
@@ -51,6 +52,7 @@
     var layout = {
         height: 600,
         width: 600,
+        margin: {"t": 0, "b": 0, "l": 0, "r": 0},
         title:"Weapons Used in Unsolved Murders 2019"
     };
         Plotly.newPlot("piechart", data, layout);
