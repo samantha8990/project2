@@ -45,14 +45,11 @@ html, body
 }
 /* Granim CSS */
 #canvas-image-blending {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
 }
   
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
