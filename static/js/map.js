@@ -13,7 +13,7 @@ var myMap = L.map("map", {
 // Add a tile layer
 L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
     attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
-    tileSize: 500,
+    tileSize: 512,
     maxZoom: 18,
     zoomOffset: -1,
     id: "mapbox/streets-v11",
@@ -56,6 +56,31 @@ L.circle([lat, lon], {
   })
   .addTo(myMap);
 }
+function createMarkers(response) {
+
+    // Pull the "state" property off of response.data
+    var states = response.crimes.state;
+  
+    // Initialize an array to hold state markers
+    var stateMarkers = [];
+  
+    // Loop through the state array
+    for (var index = 0; index < states.length; index++) {
+      var state = states[index];
+  
+      // For each station, create a marker and bind a popup with the station's name
+      var stateMarker = L.marker([response.crimes.latitude[i], response.crimes.longitude[i]])
+        .bindPopup("<h3>" + states[i] + "<h3><h3>Coordinates: " + response.crimes.latitude[i] + response.crimes.longitude[i] + "</h3>");
+  
+      // Add the marker to the bikeMarkers array
+      stateMarker.push(stateMarkers);
+    }
+  
+    // Create a layer group made from the bike markers array, pass it into the createMap function
+    (L.layerGroup(stateMarkers)).addTo(myMap);
+  }
+  
+
 
 
 

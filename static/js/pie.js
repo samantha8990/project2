@@ -44,7 +44,6 @@
     var data = [{
         values: weaponCounts,
         labels: weaponTitles,
-        textposition: "outside",
         automargin: true,
         hole:.4,
         type: 'pie'
