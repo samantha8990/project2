@@ -7,44 +7,44 @@
     
     var count = [];
 
-    var statearray = response.crimes[0].State
+    var montharray = response.crimes[0].State
     
-    var statenames = d3.nest()
+    var monthnames = d3.nest()
         .key(function(data){
-            return data.State
+            return data.Month
 
         })
         .entries(response.crimes);
-        console.log(statenames)
+        console.log(monthnames)
         
         //create lists for the states and death counts
         var deathCounts = [];
-        var stateTitles = [];
+        var monthTitles = [];
 
-    for (var i = 0; i < statenames.length; i++) {
-        var stateLabel = statenames[i].key;
-        stateTitles.push(stateLabel);
-        var stateValues = statenames[i].values.length;
-        deathCounts.push(stateValues);
+    for (var i = 0; i < monthnames.length; i++) {
+        var monthLabel = monthnames[i].key;
+        monthTitles.push(monthLabel);
+        var monthValues = monthnames[i].values.length;
+        deathCounts.push(monthValues);
         // console.log(weaponLabel);
         // console.log(weaponValues);
         
     }
         console.log(deathCounts);
-        console.log(stateTitles);
+        console.log(monthTitles);
 
 
     
 
     var data = [{
         y: deathCounts,
-        x: stateTitles,
+        x: monthTitles,
         type: 'bar'
     }];
     var layout = {
         height: 600,
-        width: 600,
-        title:"Unsolved Murders by State in 2019",
+        width: 800,
+        title:"Count of Unsolved Murders by Month in 2019",
         xaxis_title:"State",
         yaxis_title:"Total Murders"
     };
