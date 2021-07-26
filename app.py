@@ -32,36 +32,12 @@ db = SQLAlchemy(app)
 
 Combined_table = create_classes(db)
 
+
 # create route that renders index.html template
 @app.route("/")
 def home():
     return render_template("index.html")
 
-
-# create route that renders Barchart.html
-@app.route("/BarChart/")
-def bar():
-    return render_template("BarChart.html")
-
-
-# create route that renders map.html
-@app.route("/map/")
-def map():
-    return render_template("map.html")
-
-
-# create route that renders Resources.html
-@app.route("/Resources/")
-def resource():
-    return render_template("Resources.html")
-
-
-# create route that renders WeaponPie.html
-@app.route("/WeaponPie/")
-def pie():
-    return render_template("WeaponPie.html")
-
-# @TODO: Route needed for each dataset
 # Example 1: Two column table
 @app.route("/api/crime.json")
 def crime():
@@ -134,6 +110,32 @@ def crime():
     # }]
 
     return jsonify(crime_data_json)
+
+# create route that renders Barchart.html
+@app.route("/BarChart/")
+def bar():
+    return render_template("BarChart.html")
+
+
+# create route that renders map.html
+@app.route("/map/")
+def map():
+    return render_template("map.html")
+
+
+# create route that renders Resources.html
+@app.route("/Resources/")
+def resource():
+    return render_template("Resources.html")
+
+
+# create route that renders WeaponPie.html
+@app.route("/WeaponPie/")
+def pie():
+    return render_template("WeaponPie.html")
+
+# @TODO: Route needed for each dataset
+
 
 if __name__ == "__main__":
     app.run()
