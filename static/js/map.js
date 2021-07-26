@@ -49,11 +49,12 @@ var coord_count = coordinates[i].values.length;
 
 L.circle([lat, lon], {
     fillOpacity: 0.75,
-    color: "red",
-    fillColor: "white",
+    color: "maroon",
+    fillColor: "red",
     // Adjust radius
     radius: coord_count * 150
   })
+  .bindPopup("murder happened here")
   .addTo(myMap);
 }
 function createMarkers(response) {
