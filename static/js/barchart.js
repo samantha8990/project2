@@ -45,7 +45,7 @@
         height: 600,
         width: 800,
         title:"Count of Unsolved Murders by Month in 2019",
-        xaxis_title:"State",
+        xaxis_title:"Month",
         yaxis_title:"Total Murders"
     };
         Plotly.newPlot("barchart", data, layout);
