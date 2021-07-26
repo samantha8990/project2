@@ -41,8 +41,9 @@ def home():
 # Example 1: Two column table
 @app.route("/api/crime.json")
 def crime():
-    results = db.session.query(Combined_table.State, Combined_table.CNTYFIPS, Combined_table.Solved, Combined_table.Year, Combined_table.Month, Combined_table.Incident, Combined_table.Homicide, Combined_table.VicAge, Combined_table.VicRace, Combined_table.OffAge, Combined_table.OffSex, Combined_table.Weapon, Combined_table.Relationship, Combined_table.VicCount, Combined_table.OffCount, Combined_table.latitude, Combined_table.longitude, Combined_table.name).all()
-
+    #results = db.session.query(Combined_table.State, Combined_table.CNTYFIPS, Combined_table.Solved, Combined_table.Year, Combined_table.Month, Combined_table.Incident, Combined_table.Homicide, Combined_table.VicAge, Combined_table.VicRace, Combined_table.OffAge, Combined_table.OffSex, Combined_table.Weapon, Combined_table.Relationship, Combined_table.VicCount, Combined_table.OffCount, Combined_table.latitude, Combined_table.longitude, Combined_table.name).all()
+    results = db.session.query(Combined_table).all()
+    
     all_crimes=[]
     for result in results:
         crime_data={}
