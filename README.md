@@ -20,6 +20,7 @@ Resources:
 Data:
 https://www.kaggle.com/vesuvius13/serial-killers-dataset
 https://en.wikipedia.org/wiki/List_of_serial_killers_in_the_United_States
+https://sarcadass.github.io/granim.js/examples.html
 
 Images:
 https://wallpaperaccess.com/blood
