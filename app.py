@@ -22,7 +22,7 @@ from flask_sqlalchemy import SQLAlchemy
 # DATABASE_URL is automatically populated from Heroku
 # Removed SQLite connection as this example connects to postgres
 # .replace("://", "ql://", 1) addresses Heroku dialect mismatch
-#app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://wgnfpbzkibzvqz:977eb8f2aac5267b997983b11d4ea7e1b477b48e8a8c94e3737c134e4b3904ac@ec2-52-6-211-59.compute-1.amazonaws.com:5432/d1kan62k27bpv5"
+#app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://wg"
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('HEROKU_POSTGRESQL_COPPER_URL', '').replace("://", "ql://", 1)
 
 # Remove tracking modifications
